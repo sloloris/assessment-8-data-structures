@@ -1,0 +1,31 @@
+Assessment Week 8 - Part 1: Discussion Questions
+
+RUNTIME
+1. The workload of figuring out whether your box of animal crackers contains an element is determined by how many animal crackers are in the box.
+2. Order the following runtimes in descending order of efficiency (that is, fastest runtimes first, slowest last) as n approaches infinity:
+    O(1)
+    O(log n)
+    O(n log n)
+    O(n)
+    O(n^2)
+    O(2^n)
+
+STACKS & QUEUES
+1. In the following cases, would a stack or queue be a more appropriate data structure?
+    (1) Stack - he process of loading and unloading pallets onto a flatbed truck
+    (2) Queue - Putting bottle caps on bottles of beer as they roll down an assembly line
+    (3) Stack - Calculating the solution to this mathematical expression: 2 + (7 * 4) - (3 / 2)
+2. Describe two more situations where a queue would be an appropriate data structure.
+    Waiting in line at the bank or at an ice cream shop or basically anywhere; the part of the pencil that gets shaved off when you sharpen it
+3. Describe two more situations where a stack would be an appropriate data structure.
+    Producing and eating a stack of pancakes (conveniently quite literally called a stack); batteries in a flashlight
+
+LINKED LISTS
+1. The nodes are each of the double boxes in the lower row; their data is "Apple", "Berry", and "Cherry" from left to right. The head is at the top of the list (upper row) and points to the "Apple" node, where the list starts; the tail is at the "Cherry" node, or the last item in the list (whose next is None).
+2. A singly-linked list only points towards the next object, or in other words, each node only has a "next" attribute. In a doubly-linked list each node has both a "next" AND a "previous" attribute, pointing to both the object in front of and behind it. This allows the list to be traversed in  both directions, rather than just from front to back as with a singly-linked list.
+3. It is faster to append to a linked list with a tail because you can simply find the tail and set its "next" attribute rather than having to traverse through the list to find the end first.
+
+TREES
+1. A BFS algorith would search for burritos in the following order after food: Italian, Indian, Mexican, lasagna, pizza, tikka masala, saag, burritos.
+2. A DFS would search for Chicago-style in the following order after food: Italian, Indian, Mexican, burritos, tacos, enchiladas, tikka masala, saag, lasagna, pizza, thin crust, Chicago-style.
+3. A binary search tree is different from other trees in that its data is necessarily ordered and it only allows two child nodes per parent node, where each node to the left of the parent node is of lesser value than the parent and each to the right of greater value. This makes it very fast for searching for stored data, as its structured nature allows it to efficiently skip through each level of the tree with an O(log n) (maximum, assuming all the leaves are saturated).
